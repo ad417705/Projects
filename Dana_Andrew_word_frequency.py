@@ -3,8 +3,6 @@ to build a word frequency dictionary from a list of words.
 Author: [Andrew Dana]
 '''
 
-test_list = [1,2,3,4,5,5,5]
-counter = 0
 def build_dictionary(string):
     string = string.lower()
     words = string.split()
